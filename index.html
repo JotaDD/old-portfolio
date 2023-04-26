@@ -8,100 +8,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <style>
-    *{
-      margin: 0 20px;
-    }
-    body {
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border: 1px solid red;
-      background-color: #F2F3AE;
-      font-family: 'Montserrat', sans-serif;
-      max-width: 800px;
-    }
-
-    h1,
-    h3 {
-      color: #020122
-    }
-
-    strong {
-      color: #ff521b;
-    }
-
-    p {
-      color: #020122;
-    }
-
-    li {
-      list-style-type: none;
-      max-width: 150px;
-    }
-
-    a {
-      text-decoration: none;
-      color: #020122
-    }
-
-    a:hover {
-      color: #ff521b;
-    }
-
-    .skills-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin: 0 auto;
-    }
-
-    .soft-skills {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      margin-right: 100px;
-
-
-    }
-
-    .hard-skills {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      margin-left: 100px;
-
-    }
-
-    ul {
-      margin: 0 auto;
-      padding: 0 auto;
-    }
-
-    .text, strong { 
-      margin: 0 auto;
-      max-width: 600px;
-      line-height: 1.2;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
   <title>Meu Portfólio</title>
 </head>
 
 <body>
   <h1>Bem vindo ao meu Portfólio</h1>
-  <img src="https://avatars.githubusercontent.com/u/67765501?v=4"
-    alt="João Gomes de camiseta preta, olhando para o lado" width="180">
+  <div class="profile-container">
+    <img class="profile-photo" src="https://avatars.githubusercontent.com/u/67765501?v=4"
+      alt="João Gomes de camiseta preta, olhando para o lado" width="180">
+    <p class="profile-about-me">Oi, eu sou o <strong>João</strong>, tenho 25 anos, <strong>brasileiro</strong>, sou de<strong>Assis</strong>, interior de São Paulo, morei em <strong>Burlington</strong>, na província de Ontario no <strong>Canadá</strong> em 2014 e foi lá que eu decidi que gostaria entrar para a <strong>área de TI</strong>. Sou formado em <strong>Análise de Sistemas</strong>, trabalho na área de suporte técnico a três anos mas foi em 2022 que eu resolvi mudar de área e seguir para a <strong>programação</strong>.
+    </p>
+  </div>
+
   <h3>Sobre mim</h3>
-  <p class="text">Oi, eu sou o <strong>João</strong>, tenho 25 anos, <strong>brasileiro</strong>, sou de
-    <strong>Assis</strong>,
-    interior de São Paulo, morei em <strong>Burlington</strong>, na província de Ontario no <strong>Canadá</strong> em
-    2014 e foi lá que eu decidi que gostaria entrar para a <strong>área de TI</strong>. Sou formado em <strong>Análise
-      de Sistemas</strong>, trabalho na área de suporte técnico a três anos mas foi em 2022 que eu resolvi mudar de área
-    e seguir para a <strong>programação</strong>.
-  </p>
+
   <h3>Habilidades</h3>
   <div class="skills-container">
     <div class="soft-skills">
@@ -125,21 +46,22 @@
         <li>NodeJS</li>
         <li>Typescript (em construção 🔧)</li>
       </ul>
-
     </div>
-
-
   </div>
 
-  <h3>Links Uteis</h3>
-  <a href="https://github.com/jotadd">Github</a>
-  <a href="https://instagram.com/jotadd">Instagram</a>
-  <a href="https://twitter.com/jotadd">Twitter</a>
-  <br><br>
+  <div class="useful-links">
+    <h3>Links Uteis</h3>
+    <a href="https://github.com/jotadd">Github</a>
+    <a href="https://instagram.com/jotadd">Instagram</a>
+    <a href="https://twitter.com/jotadd">Twitter</a>
+  </div>
+
+
+
   <footer>
     <a href="https://avatars.githubusercontent.com/u/67765501?v=4">Minha Imagem</a>
     <a href="https://jotadd.github.io/#:~:text=ao%20meu%20Portf%C3%B3lio-,Sobre%20mim,-Oi%2C%20eu%20sou">Sobre mim
-    <a href="https://jotadd.github.io/#:~:text=a%20programa%C3%A7%C3%A3o.-,Habilidades,-Soft%20Skills">Habilidades</a>     
+      <a href="https://jotadd.github.io/#:~:text=a%20programa%C3%A7%C3%A3o.-,Habilidades,-Soft%20Skills">Habilidades</a>
   </footer>
 
 
