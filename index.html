@@ -14,10 +14,12 @@
       background-color: #F2F3AE;
       font-family: 'Montserrat', sans-serif;
     }
+
     h1,
     h3 {
       color: #020122
     }
+
     strong {
       color: #ff521b;
     }
@@ -28,21 +30,37 @@
 
     li {
       list-style-type: none;
+      max-width: 150px;
     }
 
     a {
       text-decoration: none;
-      color:#020122
+      color: #020122
     }
-    a:hover{
+
+    a:hover {
       color: #ff521b;
     }
-    .skills{
-      /* display: flex;
+
+    .skills-container {
+      display: flex;
+      border: 1px solid red;
+    }
+    .soft-skills, .hard-skills{
+      display: flex;
       flex-direction: column;
-      flex-flow: wrap;
-      justify-content:space-between ;
-      flex-flow: wrap; */
+    
+      margin: auto;
+      border: 1px solid red;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .text {
+      margin: 0 auto;
+      max-width: 600px;
     }
   </style>
   <title>Document</title>
@@ -53,32 +71,39 @@
   <img src="https://avatars.githubusercontent.com/u/67765501?v=4"
     alt="João Gomes de camiseta preta, olhando para o lado" width="180">
   <h3>Sobre mim</h3>
-  <p>Oi, eu sou o <strong>João</strong>, tenho 25 anos, <strong>brasileiro</strong>, sou de <strong>Assis</strong>,
+  <p class="text">Oi, eu sou o <strong>João</strong>, tenho 25 anos, <strong>brasileiro</strong>, sou de
+    <strong>Assis</strong>,
     interior de São Paulo, morei em <strong>Burlington</strong>, na província de Ontario no <strong>Canadá</strong> em
     2014 e foi lá que eu decidi que gostaria entrar para a <strong>área de TI</strong>. Sou formado em <strong>Análise
       de Sistemas</strong>, trabalho na área de suporte técnico a três anos mas foi em 2022 que eu resolvi mudar de área
     e seguir para a <strong>programação</strong>.
   </p>
   <h3>Habilidades</h3>
-  <div class="skills">
-    <h4>Soft Skills</h4>
-    <ul>
-      <li><strong>Comunicação</strong></li>
-      <li>Ambição</li>
-      <li>Companheirismo</li>
-      <li>Extrovertido</li>
-      <li>Empatia</li>
-      <li>Trabalho em Equipe</li>
-    </ul>
-    <h4>Hard Skills</h4>
-    <ul>
-      <li><strong>ReactJS</strong></li>
-      <li>Javascript</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>NodeJS</li>
-      <li>Typescript (em construção 🔧)</li>
-    </ul>
+  <div class="skills-container">
+    <div class="soft-skills">
+      <h4>Soft Skills</h4>
+      <ul>
+        <li><strong>Comunicação</strong></li>
+        <li>Ambição</li>
+        <li>Companheirismo</li>
+        <li>Extrovertido</li>
+        <li>Empatia</li>
+        <li>Trabalho em Equipe</li>
+      </ul>
+    </div>
+    <div class="hard-skills">
+      <h4>Hard Skills</h4>
+      <ul>
+        <li><strong>ReactJS</strong></li>
+        <li>Javascript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>NodeJS</li>
+        <li>Typescript (em construção 🔧)</li>
+      </ul>
+
+    </div>
+
 
   </div>
 
