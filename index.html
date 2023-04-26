@@ -10,9 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <style>
     body {
-      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       background-color: #F2F3AE;
       font-family: 'Montserrat', sans-serif;
+      max-width: 600px;
     }
 
     h1,
@@ -44,18 +49,33 @@
 
     .skills-container {
       display: flex;
-      border: 1px solid red;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
     }
-    .soft-skills, .hard-skills{
+
+    .soft-skills {
       display: flex;
+      align-items: center;
+      justify-content: center;
       flex-direction: column;
-    
-      margin: auto;
-      border: 1px solid red;
+      margin-right: 100px;
+
+
     }
+
+    .hard-skills {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 100px;
+
+    }
+
     ul {
-      margin: 0;
-      padding: 0;
+      margin: 0 auto;
+      padding: 0 auto;
     }
 
     .text {
@@ -112,15 +132,11 @@
   <a href="https://instagram.com/jotadd">Instagram</a>
   <a href="https://twitter.com/jotadd">Twitter</a>
   <br><br>
-  <a href="https://avatars.githubusercontent.com/u/67765501?v=4">Minha Imagem</a>
-  <br><br>
-  <a href="https://jotadd.github.io/#:~:text=ao%20meu%20Portf%C3%B3lio-,Sobre%20mim,-Oi%2C%20eu%20sou">Sobre mim
-    <br><br>
-    <a href="https://jotadd.github.io/#:~:text=a%20programa%C3%A7%C3%A3o.-,Habilidades,-Soft%20Skills">Habilidades</a>
-    <br><br>
-
-
-  </a>
+  <footer>
+    <a href="https://avatars.githubusercontent.com/u/67765501?v=4">Minha Imagem</a>
+    <a href="https://jotadd.github.io/#:~:text=ao%20meu%20Portf%C3%B3lio-,Sobre%20mim,-Oi%2C%20eu%20sou">Sobre mim
+    <a href="https://jotadd.github.io/#:~:text=a%20programa%C3%A7%C3%A3o.-,Habilidades,-Soft%20Skills">Habilidades</a>     
+  </footer>
 
 
 </body>
