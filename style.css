@@ -10,6 +10,7 @@ body {
 
 h3 {
   font-size: 2em;
+  margin-bottom: 20px;
 }
 
 strong {
@@ -40,6 +41,7 @@ header {
   margin: 0;
   font-size: 1.2em;
   max-width: 600px;
+  min-width: 400px;
   line-height: 1.2;
 }
 
@@ -49,6 +51,7 @@ header {
 
 .profile-about-me p {
   padding-right: 20px;
+  margin-left: 20px;
 }
 
 /* Estilizando Habilidades */
@@ -62,8 +65,10 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0;
+  margin: 20px;
   font-size: 1.2em;
   max-width: 750px;
+  min-width: 400px;
 }
 
 .soft-skills,
@@ -111,7 +116,7 @@ header {
 }
 
 .useful-links-container {
-  /* border: 1px solid red; */
+  /* border: 1px solid red */
   background-color: #EDD382;
 
   display: flex;
