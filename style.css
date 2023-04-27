@@ -133,15 +133,16 @@ header {
 
 .icons {
   /* border: 1px solid red; */
-  display: flex;
-  justify-content: stretch;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
 
 
-.useful-links img {
-  max-width: 32px;
+.useful-links img { 
+  max-width:70px;
 }
 a {
   text-decoration: none;
