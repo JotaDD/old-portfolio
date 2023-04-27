@@ -65,10 +65,9 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  margin: 20px;
+  margin: 0 20%;
   font-size: 1.2em;
   max-width: 750px;
-  min-width: 400px;
 }
 
 .soft-skills,
@@ -116,7 +115,7 @@ header {
 }
 
 .useful-links-container {
-  /* border: 1px solid red */
+  /* border: 1px solid red; */
   background-color: #EDD382;
 
   display: flex;
